@@ -1,0 +1,17 @@
+{
+  "name": "learn-npmgraphql",
+  "version": "1.0.0",
+  "description": "New GraphQL Express Template",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js"
+  },
+  "author": "Dannar",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.6.0"
+  }
+}
